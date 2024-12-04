@@ -4,9 +4,9 @@
     #include <stdio.h>
     int main()
     {
-    	char arr1[] = "abcdef";
-    	char arr2[] = "hello world";
-    	char arr3[] = "cuihua";
+        char arr1[] = "abcdef";
+        char arr2[] = "hello world";
+        char arr3[] = "cuihua";
         char* parr[] = { arr1, arr2, arr3 };  //指针数组
         printf("%s\n", parr[0]);
     	return 0;
