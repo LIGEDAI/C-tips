@@ -8,7 +8,7 @@
     	char arr2[] = "hello world";
     	char arr3[] = "cuihua";
         char* parr[] = { arr1, arr2, arr3 };  //指针数组
-    	printf("%s\n", parr[0]);
+        printf("%s\n", parr[0]);
     	return 0;
     }
  指针数组是把多个指针，以数组的形式存储在内存中，数组中的每个元素都是一个地址，占有多个指针的存储空间，可以用[]来替代解引用的操作。
