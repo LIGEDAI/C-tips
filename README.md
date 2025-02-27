@@ -1,3 +1,4 @@
+
 # C/C++的一些注意事项
 
 ## tips1 指针数组&数组指针
@@ -69,10 +70,14 @@ printf("%p ",p);
 
 嵌入式里一般用诸如`0x1200000`这样的十六进制数表示内存地址。对于`0x1200000`，`0x`表示十六进制（Hexadecimal）。`1200000`代表十六进制的数值。
 
-  
+## tips4 while用法
+基本语法：
 
-Use  Control + Shift + m  to toggle the  tab  key moving focus. Alternatively, use  esc  then  tab  to move to the next interactive element on the page.
-
-Attach files by  dragging & dropping,  selecting or pasting them.[](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
-Editing C-tips/README.md at main · LIGEDAI/C-tips
+    while (condition) 
+    {
+    // 执行的代码块
+    }
+-   **`condition`**：是一个 **布尔表达式**，即条件。当这个条件的值为 **`true`**（非零），循环会一直执行。条件为 **`false`**（零）时，循环终止。
+-   **`{}`**：大括号中的代码块是要反复执行的内容。
+- -   当 `while` 循环开始时，**首先检查条件**。如果条件为 `true`，则执行代码块中的内容。
+-   执行完代码块后，再次检查条件，如果仍为 `true`，则继续执行代码块。这个过程会一直重复，直到条件为 `false` 时退出循环。
